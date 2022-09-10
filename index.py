@@ -2,7 +2,7 @@ import streamlit as st
 import datetime,requests
 from plotly import graph_objects as go
 
-st.set_page_config(page_title='Shisu Mishra', page_icon=":rainbow:")
+st.set_page_config(page_title='Shubham Upadhyay', page_icon=":rainbow:")
 
 st.title("8-DAY WEATHER FORECAST 🌧️🌥️")
 
@@ -161,7 +161,7 @@ if(st.button("SUBMIT")):
         st.header(' ')
         st.header(' ')
         st.markdown("Made with :heart: by : ")
-        st.markdown("Shisu 🤩 && Mishra 🤗 && Gurushiksha 🥰")
+        st.markdown("Shubham 🤩 && Upadhyay🤗 &&  🥰")
  
     except KeyError:
         st.error(" Invalid city!!  Please try again !!")
